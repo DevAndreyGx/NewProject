@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: ghostwhite;
+}
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.image {
+    height: 275px;
+    width: 183;
+    margin-bottom: 10 auto;
+    border-radius: 40px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    margin-bottom: 100px;
+}
+
+.best {
+    display: flex;
+    flex-direction: center;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 50px;
+}
+
+#last-names {
+    padding: 10px;
+    border: 2px solid black
+
+}
+
+#names { 
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#nombres {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#apellidos {
+    border-radius: 10px;
+    padding: 5px;
+
+}

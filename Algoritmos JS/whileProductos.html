@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ciclo While</title>
+</head>
+<body>
+    <h1>While Prdocutos</h1>
+    <script>
+        var temp,NP,C,VA,SU,i,producto;
+        NP = 0;
+        C = 0;
+        VA = 0;
+        SU = 0;
+        i = 1;
+        producto = "";
+        temp = prompt("Ingrese numero de productos");
+        NP = Number(temp);
+        while(i<=NP) {
+            temp = prompt("Ingrese el producto");
+            producto = String(temp);
+            temp = prompt("Ingrese el precio del producto: ")
+            VA = Number(temp);
+            i++;
+            C+=i;
+            SU = SU+VA;
+            document.write("El precio del producto "+producto+" es "+VA+ '</br>');
+        }
+        document.write("La suma es: "+SU);
+    </script>
+</body>
+</html>

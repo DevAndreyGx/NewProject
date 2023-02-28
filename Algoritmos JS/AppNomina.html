@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Front Nomina 👌</title>
+        <link rel="stylesheet" href="CSS/FrontNomina.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <h1 class="title">Front Nomina</h1>
+        <form action="" method="post">
+            <div class="form">
+                    <p>Holi Bienvenido a la nomina...</p>
+                    <label for="amaout">Cantidad Empelados:</label>
+                    <input type="text" id="amaout" placeholder="Cantidad Empledos"><br><br>
+                
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" placeholder="Nombre"><br><br>
+                
+                    <label for="last-name">Apelldio:</label>
+                    <input type="text" id="last-name" placeholder="Apelldio"><br><br>
+
+                    <label for="id">Cedula: </label>
+                    <input type="text" id="id"          placeholder="Cedula"><br><br>
+
+                    <label for="salary">Sueldo pactado: </label>
+                    <input type="text" id="salary" placeholder="Sueldo"><br><br>
+
+                    <label for="day">Dias laborados: </label>
+                    <input type="text" id="day" placeholder="Dias laborados"><br><br>
+                    <label for="hoursX">Horas Extras: </label>
+                    <br>
+                    <br>
+                    <label for="yes">SI</label>
+                    <input type="radio" id="yes" name="opciones">
+                    <label for="no">NO</label>
+                    <input type="radio" id="no" name="opciones">
+                    <br>
+                    <br>
+                    <div id="container"></div>
+                    <br>
+                    <div id="container-inputs-labels"></div>
+                    <br>
+                    <div id="container-inputs-horas"></div>
+                    <br>
+                    <input type="button" name="Enviar" id="send" value="Enviar" >
+                    <br>
+                    <br>
+            </div>
+        </form>
+        
+        <table border="1" id="myTable">
+            <thead>
+                <tr>
+                    <th> Nombre </th>
+                    <th> Apellidos </th>
+                    <th> Identificacion </th>
+                    <th> Salario Base </th>
+                    <th> Dias Laborados </th>
+                    <th> Horas extras </th>
+                    <th> Tipo horas </th>
+                    <th id="yyy"> Cantidad horas extras <br>nocturnas</th>
+                    <th id="xxx"> Cantidad horas extras <br>diurnas</th>
+                    <th>Valor Dia</th>
+                    <th>Sueldo Hora</th>
+                    <th>Auxilio de transporte</th>
+                    <th id="zzz">Pago horas <br> Extras Diurnas</th>
+                    <th id="aaa">Pago horas <br> Extras Nocturnas</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td id="td1"></td>
+                    <td id="td2"></td>
+                    <td id="td3"></td>
+                    <td id="td4"></td>
+                    <td id="td5"></td>
+                    <td id="td6"></td>
+                    <td id="td7"></td>
+                    <td id="td8"></td>
+                    <td id="td9"></td>
+                    <td id="td10"></td>
+                    <td id="td11"></td>
+                    <td id="td12"></td>
+                    <td id="td13"></td>
+                    <td id="td14"></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <script src="Scripts/NominaTest.js"></script>
+    </body>
+</html>

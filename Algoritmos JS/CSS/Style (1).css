@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
